@@ -24,7 +24,7 @@ const filteredCoins=Coins.filter(coin => coin.name.toLowerCase().includes(search
   return (
     
     <div className="coin-app">
-      <h1 className='naam'>CryptoVeda</h1>
+      <h1 className='naam'>CoinFlip <i class="fas fa-coins"></i></h1>
       <div className="coin_search">
         <form>
           <input type="text" placeholder='Search Crypto...' className="coin_input" onChange={handleChange}></input>
